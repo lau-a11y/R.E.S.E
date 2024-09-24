@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <meta charset="UTF-8">
+        <title> R.E.S.E </title>
+        <link rel="stylesheet" href="estilos3.css"/>
+    </head>
+    <body>
+        <div class="box">
+            <div class="container">
+                <div class="top-header">
+                    <form class="formulario-registro">
+                        <center>
+                            <span>R.E.S.E</span>
+                            <header> registra </header>
+                        </center>
+                        
+                        <center>
+                        <form method="post" class="signin-form" autocomplete="off">
+                            <span class="field-validation-valid" data-valmsg-for="ValidacionMsg" data-valmsg-replace="true"></span>
+                                <select class="form-select" id="selectDoc" data-val="true" data-val-required="The TipoId field is required." name="TipoId">
+                                    <option value="0" selected="selected"></option>
+                        <option value="1">Docente</option> 
+                        <option value="2">Estudiante</option>
+                                </select>
+                        </form>
+                    </center> 
+                    
+                </div>
+                <center>
+                <div class="input-field">
+                    <input type="text" class="input" placeholder="usuario" required name="correo">
+                    <input type="password" class="input" placeholder="contraseña" required name="contrasena">
+                    <input type="submit" class="submit" value="inicio">
+                </div>
+    
+                <div class="bottom">
+                    <div class="left">
+                        <input type="checkbox" id="check">
+                        <label for="check"> Recordarme</label>
+                    </div>
+                    <div class="rigth">
+                        <label><a href="#">¿olvidaste la contraseña?</a></label>
+                    </div>
+                </center>
+                </div>
+            </div>
+        </div>
+    </body>

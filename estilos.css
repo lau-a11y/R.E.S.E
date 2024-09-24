@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(43, 97, 245);
+    width: 80%;
+    text-align: center;
+    }
+
+body{
+    background-image: url(azul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    background-image: url(COLEGIO.jpg);
+    background-repeat: no-repeat;
+    width: 120%;
+    height: 120%;
+}
+#container{
+   /* width: 70%;*/
+    width: 1400px;
+    margin: 9px auto;
+    border: 1px solid rgb(8, 8, 8);
+}
+
+
+a:hover {
+    cursor: pointer;
+}
+  

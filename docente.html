@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>R.E.S.E</title>
+   <link rel="stylesheet" href="estiloa.css"/>
+</head>
+
+<body> 
+    <div id="container"></div>
+    <center>
+    <br><br><br><br><br><br><br><br><br>
+    <header>
+        <img src="imagen-pequeña.jpg" alt="Descripción de la imagen" width="100" height="100" title="Título de la imagen" border="1">
+
+            <picture>
+                <source srcset="imagen-grande.jpg" media="(min-width: 800px)">
+                <source srcset="imagen-mediana.jpg" media="(min-width: 400px)">
+            </picture>
+        <h1>DOCENTES</h1>
+    </header>
+    </center>
+</body>
+
+<body>
+    <div class="container"></div>
+    <center>
+    <form>
+        <ol type="1">
+            <form method="post" class="signin-form" autocomplete="off" action="procesar.php">
+                <span class="field-validation-valid" data-valmsg-for="ValidacionMsg" data-valmsg-replace="true"></span>
+                    <select class="form-select" id="selectDoc" data-val="true" data-val-required="The TipoId field is required." name="TipoId">
+                        <option value="0" selected="selected"></option>
+            <option value="1">William David Alvarez</option> 
+            <option value="2">Luis Fernando Quiroz</option>
+            <option value="3">Mauricio Uribe</option>
+            <option value="4">Cristina Monsalve</option>
+                    </select>
+          </ol>
+    </form>
+    </center>
+    <center>
+    <ul>
+            <a href="estudiantes.html"><input type="submit" value="ingrese el grado" class="option"></a>
+    </ul>
+    </center>
+</body>
